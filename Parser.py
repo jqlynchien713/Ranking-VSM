@@ -33,6 +33,7 @@ class Parser:
 		string = string.replace("’","")
 		string = string.replace("'","")
 		string = string.replace('"',"")
+		string = string.replace('”',"")
 		string = string.replace("\s+"," ")
 		string = string.replace('\n'," ")
 		string = string.lower()
