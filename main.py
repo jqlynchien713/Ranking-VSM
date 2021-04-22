@@ -1,6 +1,5 @@
 import argparse
 from VectorSpace import VectorSpace
-from VS_blob import VectorSpace_B
 import sys, getopt
 import os
 import time

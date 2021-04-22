@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Parser	Parser.py	/^class Parser:$/;"	c
+Parser	VectorSpace.py	/^from Parser import Parser$/;"	i
+PorterStemmer	Parser.py	/^from PorterStemmer import PorterStemmer$/;"	i
+PorterStemmer	PorterStemmer.py	/^class PorterStemmer:$/;"	c
+VectorSpace	VectorSpace.py	/^class VectorSpace:$/;"	c
+VectorSpace	main.py	/^from VectorSpace import VectorSpace$/;"	i
+VectorSpace_B	main.py	/^from VS_blob import VectorSpace_B$/;"	i
+__init__	Parser.py	/^	def __init__(self,):$/;"	m	class:Parser
+__init__	PorterStemmer.py	/^    def __init__(self):$/;"	m	class:PorterStemmer
+__init__	VectorSpace.py	/^    def __init__(self, documents=[], queryList=[], weightType = ''):$/;"	m	class:VectorSpace
+argparse	main.py	/^import argparse$/;"	i
+array	util.py	/^	from numpy import dot, array$/;"	i
+build	VectorSpace.py	/^    def build(self,documents, query):$/;"	m	class:VectorSpace
+buildIdf	VectorSpace.py	/^    def buildIdf(self, documents):$/;"	m	class:VectorSpace
+buildQueryVector	VectorSpace.py	/^    def buildQueryVector(self, termList):$/;"	m	class:VectorSpace
+clean	Parser.py	/^	def clean(self, string):$/;"	m	class:Parser
+cons	PorterStemmer.py	/^    def cons(self, i):$/;"	m	class:PorterStemmer
+cosine	util.py	/^def cosine(vector1, vector2):$/;"	f
+cvc	PorterStemmer.py	/^    def cvc(self, i):$/;"	m	class:PorterStemmer
+division	tfidf.py	/^from __future__ import division, unicode_literals$/;"	i
+docConverter	main.py	/^def docConverter(doc_list):$/;"	f
+docConverter	tfidf.py	/^def docConverter(doc_list):$/;"	f
+documentVectors	VectorSpace.py	/^    documentVectors = []$/;"	v	class:VectorSpace
+dot	util.py	/^	from numpy import dot, array$/;"	i
+doublec	PorterStemmer.py	/^    def doublec(self, j):$/;"	m	class:PorterStemmer
+ends	PorterStemmer.py	/^    def ends(self, s):$/;"	m	class:PorterStemmer
+euclidean	util.py	/^def euclidean(vector1, vector2):$/;"	f
+feedback	VectorSpace.py	/^    def feedback(self,first_doc):$/;"	m	class:VectorSpace
+getVectorKeywordIndex	VectorSpace.py	/^    def getVectorKeywordIndex(self, documentList):$/;"	m	class:VectorSpace
+getopt	main.py	/^import sys, getopt$/;"	i
+idf	VectorSpace.py	/^    idf = []$/;"	v	class:VectorSpace
+idf	tfidf.py	/^def idf(word, bloblist):$/;"	f
+m	PorterStemmer.py	/^    def m(self):$/;"	m	class:PorterStemmer
+main	main.py	/^def main(argv):$/;"	f
+makeVector	VectorSpace.py	/^    def makeVector(self, wordString):$/;"	m	class:VectorSpace
+math	VectorSpace.py	/^import math$/;"	i
+math	tfidf.py	/^import math$/;"	i
+n_containing	tfidf.py	/^def n_containing(word, bloblist):$/;"	f
+nltk	VectorSpace.py	/^import nltk$/;"	i
+norm	util.py	/^	from numpy.linalg import norm$/;"	i
+os	main.py	/^import os$/;"	i
+os	tfidf.py	/^import os$/;"	i
+parser	VectorSpace.py	/^    parser=None$/;"	v	class:VectorSpace
+pprint	VectorSpace.py	/^from pprint import pprint$/;"	i
+queryList	VectorSpace.py	/^    queryList = []$/;"	v	class:VectorSpace
+queryVector	VectorSpace.py	/^    queryVector = []$/;"	v	class:VectorSpace
+r	PorterStemmer.py	/^    def r(self, s):$/;"	m	class:PorterStemmer
+related	VectorSpace.py	/^    def related(self,documentId):$/;"	m	class:VectorSpace
+removeDuplicates	util.py	/^def removeDuplicates(list):$/;"	f
+removeStopWords	Parser.py	/^	def removeStopWords(self,list):$/;"	m	class:Parser
+search	VectorSpace.py	/^    def search(self, relevanceType):$/;"	m	class:VectorSpace
+setto	PorterStemmer.py	/^    def setto(self, s):$/;"	m	class:PorterStemmer
+showAllResults	main.py	/^def showAllResults(documents, doc_name, query, weightType):$/;"	f
+showFeedbackResults	main.py	/^def showFeedbackResults(v, scores, doc_list, doc_name, weightType, relevanceType):$/;"	f
+showResults	main.py	/^def showResults(scores, doc_name, weightType, relevanceType):$/;"	f
+stem	PorterStemmer.py	/^    def stem(self, p, i, j):$/;"	m	class:PorterStemmer
+stemmer	Parser.py	/^	stemmer=None$/;"	v	class:Parser
+step1ab	PorterStemmer.py	/^    def step1ab(self):$/;"	m	class:PorterStemmer
+step1c	PorterStemmer.py	/^    def step1c(self):$/;"	m	class:PorterStemmer
+step2	PorterStemmer.py	/^    def step2(self):$/;"	m	class:PorterStemmer
+step3	PorterStemmer.py	/^    def step3(self):$/;"	m	class:PorterStemmer
+step4	PorterStemmer.py	/^    def step4(self):$/;"	m	class:PorterStemmer
+step5	PorterStemmer.py	/^    def step5(self):$/;"	m	class:PorterStemmer
+stopwords	Parser.py	/^	stopwords=[]$/;"	v	class:Parser
+sys	PorterStemmer.py	/^import sys$/;"	i
+sys	main.py	/^import sys, getopt$/;"	i
+sys	util.py	/^import sys$/;"	i
+tb	tfidf.py	/^from textblob import TextBlob as tb$/;"	i
+tf	tfidf.py	/^def tf(word, blob):$/;"	f
+tfidf	tfidf.py	/^def tfidf(word, blob, bloblist):$/;"	f
+time	main.py	/^import time$/;"	i
+tokenise	Parser.py	/^	def tokenise(self, string):$/;"	m	class:Parser
+unicode_literals	tfidf.py	/^from __future__ import division, unicode_literals$/;"	i
+util	VectorSpace.py	/^import util$/;"	i
+vectorKeywordIndex	VectorSpace.py	/^    vectorKeywordIndex=[]$/;"	v	class:VectorSpace
+vowelinstem	PorterStemmer.py	/^    def vowelinstem(self):$/;"	m	class:PorterStemmer
