@@ -1,5 +1,5 @@
-# WSM Project 1: Ranking by Vector Space Models
-###### WSM Project 1
+# WSM Project: Ranking by Vector Space Models
+###### WSM Project
 
 This project search for top 10 relevant articles based on input queries among 7,034 English news collected from _reuters.com_. The retrieved results will be shown as `NewsID \t Similarity Score`, and these results will be ranked from top relevant to least relevant.
 #### Example Output
